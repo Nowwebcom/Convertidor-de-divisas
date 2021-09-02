@@ -1,0 +1,97 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+	<!-- Informació Meta -->
+	<meta charset="utf-8"/>
+	<meta name="description" content="Lorem Ipsum">
+	<meta name="keywords" content="Lorem, Ipsum">
+	<meta name="ToniVYT Design Web" content="Lorem Ipsum">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+	<!-- Enllaç a l'arxiu CSS Extern -->
+	<link rel="stylesheet" href="css/style.css" type="text/css"/>
+
+	<!-- favicon -->
+	<link href="img/favicon.png" rel="icon" type="image/png" />
+
+	<!-- Títol de la pàgina -->
+	<title>$ convertidor de divises €</title>
+</head>
+<body>
+	<header>
+		<h1>Convertidor de divises € $ </h1>
+	</header>
+
+	<section>
+		<article>
+			<h2></h2>
+			<div id="capsa">
+				<form action="action.php" method="POST">
+					<div>
+						<label>Euros</label><br>
+						<input type="number" id="euro" name="euro">
+					</div>
+					<div>
+						<label>Moneda de canvi</label><br>
+						<select name="divisa" id="divisa" onchange="canvi()">
+							<option value="select" selected>Seleccione una divisa</option>
+							<option value="usd">U.S.Dollar (USD)</option>
+							<option value="cup">Peso Cubano (CUP)</option>
+							<option value="egp">Egyptian Pound (EGP)</option>
+							<option value="thb">Thai Baht (THB)</option>
+							<option value="rub">Russian Rouble (RUB)</option>
+							<option value="aud">Australian Dollar(AUD)</option>
+							<option value="chf">Swiss Franc(CHF)</option>
+							<option value="all">Albanian Lek(ALL)</option>
+							<option value="ars">Argentine Peso(ARS)</option>
+							<option value="azn">Azerbaijan Manat(AZN)</option>
+							<option value="bdt">Bangladeshi taka(BDT)</option>
+							<option value="byn">Belarussian Ruble(BYN)</option>
+							<option value="bam">Bosnia and Hezergovina convertible mark</option>
+							<option value="bif">Burundian franc</option>
+							<option value="xaf">Central African CFA franc(XAF)</option>
+							<option value="cny">Chinese Yuan (CNY)</option>
+							<option value="crc">Costa Rican Colón(CRC)</option>
+							<option value="czk">Czech Koruna(CZK)</option>
+							<option value="dop">Dominican Peso(DOP)</option>
+							<option value="ern">Eritrean nakfa(ERN)</option>
+							<option value="gmd">Gambian dalasi(GMD)</option>
+							<option value="gbp">U.K. Pound Sterling(GBP)</option>
+							<option value="gyd">Guyanese dollar(GYD)</option>
+							<option value="gip">Gibraltar pound(GIP)</option>
+							<option value="gyd">Guyanese dollar(GYD)</option>
+							<option value="hkd">Hong Kong Dollar(HKD)</option>
+							<option value="inr">Indian Rupee (INR)</option>
+							<option value="iqd">Iraqui dinar(IQD)</option>
+							<option value="jod">Jordanian Dinar(JOD)</option>
+							<option value="kwd">Kuwaiti Dinar(KWD)</option>
+							<option value="lvl">Latvian Lats(LVL)</option>
+							<option value="lrd">Liberian dollar(LRD)</option>
+							<option value="mop">Macanase pataca(MOP)</option>
+							<option value="mwk">Malawian kwacha(MWK)</option>
+							<option value="mro">Mauritanian Ouguiya(MRO)</option>
+							<option value="mxn">Mexican Peso(MXN)</option>
+							<option value="mad">Moroccan Dirham(MAD)</option>
+							<option value="nad">Namibian dollar(NAD)</option>
+							<option value="twd">New Taiwan Dollar(TWD)</option>
+						</select>
+					</div>
+				<div>
+					<label>Valor al canvi</label><br>
+					<input type="number" name="resultado" id="resultado">
+				</div>	
+			</div>		
+			</form>
+		</article>
+	</section>
+	
+	<footer></footer>
+</body>
+<!-- Enllaç JQUERY -->
+<script  type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Enllaç a Javascript Extern -->
+<script  type="text/javascript" src="js/javascript.js"></script>
+</html>

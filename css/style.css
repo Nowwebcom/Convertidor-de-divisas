@@ -1,0 +1,23 @@
+*{
+    font-family: 'roboto' , sans-serif;
+}
+body{
+    margin: 0;
+}
+h1{
+    margin: auto;
+    color: greenyellow;
+    background-color: black;
+    width: 355px;
+    
+}
+form{
+	border-color:green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+label{
+    color: #47B0FB;
+    font-weight: bold;
+}
