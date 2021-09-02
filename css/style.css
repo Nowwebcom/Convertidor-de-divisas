@@ -12,7 +12,7 @@ h1{
     
 }
 form{
-	border-color:green;
+	border-color:blue;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
